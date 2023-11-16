@@ -3,7 +3,7 @@ Library           SeleniumLibrary
 
 *** Variables ***
 ${expect}         MyDockerOnVM
-${url}            http://localhost:8080/mygitweb/check4.html
+${url}            ${url}    http://www.google.com
 ${Browser}        chrome
 ${delay}          1
 
